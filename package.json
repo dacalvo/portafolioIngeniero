@@ -1,0 +1,12 @@
+{
+  "name": "PORTAFOLIO",
+  "version": "1.0.0",
+  "description": "\"portafolio ingeniero de sistemas\"",
+  "main": "index.html",
+  "repository": "https://github.com/dacalvo/portafolioIngeniero.git",
+  "author": "diego alejandro calvo orozco",
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "^5.2.3"
+  }
+}
