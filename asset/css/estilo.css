@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Permanent+Marker&display=swap');
+:root{
+    --font-permanentMaker:'Permanent Marker', cursive;
+    --color-verde:#97c143;
+    --fontCaveat:'Caveat', cursive;
+}
+
+#frontalIzquierdo{
+    background-color: #032b41;    
+}
+#frontalIzquierdo header{
+    font-family: var(--font-permanentMaker);   
+}
+#frontalIzquierdo ul{
+    list-style: none;
+     
+}
+#frontalIzquierdo nav .estilOpcionesNav{
+    background-color: var(--color-verde); 
+    padding: 0.5em;
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: bold;
+    font-family: var(--font-permanentMaker);
+}
+#frontalIzquierdo nav .estilOpcionesNav:hover i{
+   font-size: 2em;
+   color:white;
+   transition: 0.5s;
+}
+#imagenIngeniero{
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    border-radius: 50%;
+}
+/*----------------------------------------------------------------*/
+#headerRight h1{
+font-family:var(--font-permanentMaker) ;
+}
+
+#headerRight p{
+font-family:var(--fontCaveat) ;
+}
+
+.quitarBefore::after{
+    content: url("../imagnes/escribir.gif");
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    transform: scale(0.3);
+}
